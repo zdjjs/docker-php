@@ -1,4 +1,4 @@
-FROM php:7.2-alpine
+FROM php:7.3-alpine
 ENV LD_PRELOAD /usr/lib/preloadable_libiconv.so php
 
 RUN wget https://github.com/progrium/entrykit/releases/download/v0.4.0/entrykit_0.4.0_linux_x86_64.tgz \
